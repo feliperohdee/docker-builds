@@ -52,7 +52,7 @@ RUN cd /usr/local/src \
 	&& make V=0 \
 	&& make install
 
-ARG VIPS_VERSION=8.10.5
+ARG VIPS_VERSION=8.13.0
 ARG VIPS_URL=https://github.com/libvips/libvips/releases/download
 
 RUN cd /usr/local/src \
