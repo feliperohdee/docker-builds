@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM arm64v8/amazonlinux:2
 
 # general build stuff
 RUN yum update -y \
